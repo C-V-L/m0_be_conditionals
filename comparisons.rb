@@ -24,6 +24,8 @@ puts "Is number_teachers greater than number_students?", number_teachers > numbe
 # YOU DO: print the result of the comparison: is number_teachers less than number_students?
 # this should print: true
 
+puts "Is number_teachers less than number_students?", number_teachers < number_students
+
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
 
@@ -57,7 +59,7 @@ puts 4 < 9
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.
+# YOU DO: Explain.◊
 
 friends = 6
 siblings = 2
