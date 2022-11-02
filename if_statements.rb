@@ -27,6 +27,19 @@ end
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'coat'
 
+weather = "rainy"
+
+if weather == "sunny"
+  p "sunscreen"
+elsif weather == "rainy"
+  p "umbrella"
+elsif weather == "snowy"
+  p "coat"
+elsif weather == "icy"
+  p "yak traks"
+else
+  p "good to go!"
+end
 
 ##################
 # Using the num_quarters variable defined below, determine
@@ -43,8 +56,20 @@ end
 
 num_quarters = 0
 
-puts "I have enough money for a gumball"
-puts "I don't have enough money for a gumball"
+if num_quarters = 0
+  p "I don't have enough money for gumball"
+else num_quarters > 0
+  p "I have enough money for a gumball"
+end
+
+num_quarters = 2
+
+if num_quarters == 0
+  p "I don't have enough money for gumball"
+elsif num_quarters >= 2
+  p "I have enough money for a gumball"
+end
+
 
 
 #####################
@@ -63,3 +88,48 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce
+  p "I can make a pizza"
+else 
+  p "I cannot make a pizza"
+end
+
+cups_of_flour = 5
+has_sauce = false
+
+if cups_of_flour >= 2 && has_sauce
+  p "I can make a pizza"
+else 
+  p "I cannot make a pizza"
+end
+
+cups_of_flour = 2
+has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce
+  p "I can make a pizza"
+else 
+  p "I cannot make a pizza"
+end
+
+cups_of_flour = 3
+has_sauce = true
+
+if cups_of_flour >= 2 && has_sauce
+  p "I can make a pizza"
+else 
+  p "I cannot make a pizza"
+end
+
+cups_of_flour = 50
+has_sauce = true
+
+if cups_of_flour >= 2 && cups_of_flour < 20 && has_sauce
+  p "I can make a pizza"
+elsif cups_of_flour >= 20 && has_sauce
+  p "I can make so many freaking pizzas!!!"
+else 
+  p "I cannot make a pizza"
+end
+
