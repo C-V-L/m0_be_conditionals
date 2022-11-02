@@ -29,21 +29,32 @@ puts "Is number_teachers less than number_students?", number_teachers < number_s
 # YOU DO: print the result of the comparison: is number_teachers equal to string_teachers?
 # this should print: false
 
+puts "Is number_teachers equal to number_students?", number_teachers == number_students
+
 # YOU DO: print the result of the comparison: is number_teachers not equal to number_students?
 # this should print: true
+
+puts "Is number_teachers not equal to number_students?", number_teachers != number_students
 
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 20?
 # this should print: true
 
+puts "is number_students greater than or equal to 20?", number_students >= 20
+
 # YOU DO: print the result of the comparison: is number_students greater than or equal to 21?
 # this should print: false
+
+puts "is number_students greater than or equal to 21?", number_students >= 21
 
 # YOU DO: print the result of the comparison: is number_students less than or equal to 20?
 # this should print: true
 
+puts "is number_students less than or equal to 20?", number_students <= 20
+
 # YOU DO: print the result of the comparison: is number_students less than or equal to 21?
 # this should print: true
 
+puts "is number_students less than or equal to 21?", number_students <= 21
 
 #-------------------
 # PART 2: Articulating what you are doing
@@ -56,21 +67,27 @@ puts "Is number_teachers less than number_students?", number_teachers < number_s
 
 puts 4 < 9
 #YOU DO: Explain.
+# Is 4 less than 9? This will print true
 
 books = 3
 puts 4 < books
-# YOU DO: Explain.◊
+# YOU DO: Explain.
+# Sets books to a value of 3
+# is 4 less than the value of books? This will print false 
 
 friends = 6
 siblings = 2
 puts friends > siblings
 # YOU DO: Explain.
+# Sets Friends variable to 6 and siblings variable to 2
+# Asks is the value of friends greater than siblings? Print will be true.
 
 attendees = 9
 meals = 8
 puts attendees != meals
 # YOU DO: Explain.
-
+# Sets attendees to a value of 9 and meals to a value of 8.
+# Askes if value of attendees is not equal to the value of meals. Print is true.
 
 #-------------------
 # PART 3: Logical Operators
@@ -93,14 +110,16 @@ age = 1
 # YOU DO:
 # Determine if the dog loves to play and loves treats
 
+puts loves_to_play && loves_treats
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
 
 # Determine if the dog loves to play and is a puppy
+puts loves_to_play && age <= 2
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: I decided on an arbitrary age of greater than 2 would determind whether the creature was puppy or dog. In this case age = 1 so puppy is true and the whole statement is true.
