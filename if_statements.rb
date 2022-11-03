@@ -56,18 +56,16 @@ end
 
 num_quarters = 0
 
-if num_quarters = 0
+if num_quarters > 2
   p "I don't have enough money for gumball"
-else num_quarters > 0
-  p "I have enough money for a gumball"
+else p 'I have enough money for a gumball'
 end
 
 num_quarters = 2
 
 if num_quarters == 0
   p "I don't have enough money for gumball"
-elsif num_quarters >= 2
-  p "I have enough money for a gumball"
+else p 'I have enough money for a gumball'
 end
 
 
